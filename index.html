@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="page_title_main">Портфолио</title>
+    <meta name="description" content="Портфолио Кирилла Ювелира - мастера эксклюзивных татуировок в Германии: реализм, японский стиль, чикано, орнаментал, мини-тату.">
+    <meta name="keywords" content="тату, татуировка, тату мастер, Германия, Хемниц, реализм, японский стиль, чикано, орнаментал, мини-тату, Kirill Yuvelir">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-overlay-image"></div>
+        <div class="header-overlay"></div> 
+        <div class="header-content-wrapper">
+            <button class="hamburger-menu" aria-label="Открыть меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="main-nav" data-aos="fade-down" data-aos-delay="200">
+                <ul>
+                    <li><a href="#about" data-lang-key="nav_about">Обо мне</a></li>
+                    <li><a href="#services" data-lang-key="nav_services">Услуги</a></li>
+                    <li><a href="#portfolio" data-lang-key="nav_portfolio">Работы</a></li>
+                    <li><a href="#process" data-lang-key="nav_process">Процесс</a></li>
+                    <li><a href="#contact" data-lang-key="nav_contact">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="language-switcher" data-aos="fade-down" data-aos-delay="300">
+                <button class="lang-btn" data-lang="ru">RU</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="uk">UK</button>
+                <button class="lang-btn" data-lang="de">DE</button>
+            </div>
+            
+            <button id="shareTopLeftBtn" class="share-btn share-top-left" aria-label="Поделиться сайтом">
+                <i class="fas fa-share-alt"></i>
+            </button>
+
+            <div class="hero-text-container">
+                <h1 data-lang-key="hero_main_title" data-aos="fade-up" data-aos-delay="400">TATTOOKIRILL YUVELIR</h1>
+                <p data-aos="fade-up" data-aos-delay="500"><em data-lang-key="hero_subtitle">Tattoo Germany</em></p>
+                <p data-lang-key="hero_description_short" data-aos="fade-up" data-aos-delay="600">Ваш мастер эксклюзивных татуировок.</p>
+                <button class="scroll-down-btn" data-aos="fade-up" data-aos-delay="700"><i class="fas fa-chevron-down"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <section id="about">
+            <h2 data-lang-key="about_title" data-aos="fade-up">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-left">
+                    <p data-lang-key="hero_description">
+                        Кирилл – ваш мастер эксклюзивных татуировок в Германии. Специализируюсь на реалистичных, японских, чикано, орнаментальных и мини-татуировках. Создаю уникальные произведения искусства на вашей коже, отражающие вашу индивидуальность и стиль. Моя работа — это не просто нанесение чернил, а создание истории, которая останется с вами навсегда. Высокое качество, внимание к деталям и стерильность – мои главные приоритеты.
+                    </p>
+                </div>
+                <div class="about-images-grid" data-aos="fade-right">
+                    <img src="images/osebe1.JPG" alt="Тату-мастер Кирилл за работой" loading="lazy">
+                    <img src="images/osebe2.JPG" alt="Рабочее место тату-мастера" loading="lazy">
+                    <img src="images/osebe3.PNG" alt="Инструменты для татуировки" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <hr data-aos="fade-up">
+
+        <section id="services">
+            <h2 data-lang-key="services_title" data-aos="fade-up">Услуги и стили</h2>
+            <div class="services-grid">
+                <div class="service-item" data-aos="fade-up">
+                    <img src="images/real.jpeg" alt="Пример татуировки в стиле Реализм" loading="lazy">
+                    <h3 data-lang-key="service_realism_title">Реализм</h3>
+                    <p data-lang-key="service_realism_desc">Детализированные портреты, животные и объекты, которые выглядят как фотографии на вашей коже.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/ypon.jpeg" alt="Пример татуировки в Японском стиле" loading="lazy">
+                    <h3 data-lang-key="service_japanese_title">Японский стиль (Irezumi)</h3>
+                    <p data-lang-key="service_japanese_desc">Традиционные мотивы: драконы, карпы, самураи, цветы в ярких, насыщенных цветах.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/chikano.jpeg" alt="Пример татуировки в стиле Чикано" loading="lazy">
+                    <h3 data-lang-key="service_chicano_title">Чикано</h3>
+                    <p data-lang-key="service_chicano_desc">Гангстерская тематика, религиозные и культурные символы, обычно в черно-сером исполнении.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/ornament.jpeg" alt="Пример татуировки в стиле Орнаментал" loading="lazy">
+                    <h3 data-lang-key="service_ornamental_title">Орнаментал</h3>
+                    <p data-lang-key="service_ornamental_desc">Геометрические узоры, мандалы, этнические мотивы, создающие уникальный дизайн.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/mini.jpeg" alt="Пример мини-татуировки" loading="lazy">
+                    <h3 data-lang-key="service_mini_tattoo_title">Мини-тату</h3>
+                    <p data-lang-key="service_mini_tattoo_desc">Маленькие, аккуратные татуировки с глубоким смыслом или просто для украшения.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr data-aos="fade-up">
+
+        <section id="portfolio">
+            <h2 data-lang-key="portfolio_title" data-aos="fade-up">Мои работы</h2>
+            <div class="portfolio-gallery">
+                <img src="images/r1.PNG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r2.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r3.PNG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r4.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r5.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r6.PNG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r7.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r7.PNG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r8.PNG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r9.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r10.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r11.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r13.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r14.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r15.PNG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r17.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r18.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r19.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r20.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r21.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r22.PNG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r23.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r24.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r25.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r27.PNG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r28.JPG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                <img src="images/r29.PNG" alt="Татуировка в стиле реализм" data-aos="zoom-in" loading="lazy">
+                
+                </div>
+        </section>
+
+        <hr data-aos="fade-up">
+
+        <section id="process">
+            <h2 data-lang-key="process_title" data-aos="fade-up">Процесс</h2>
+            <div class="process-grid">
+                <div class="process-step" data-aos="fade-up">
+                    <img src="images/proces1.JPG" alt="Консультация с тату-мастером" loading="lazy">
+                    <h3 data-lang-key="process_consultation_title">Консультация</h3>
+                    <p data-lang-key="process_consultation_desc">Обсуждаем ваши идеи, стиль, размер и расположение будущей татуировки. Ваше видение - наш приоритет.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/proces2.JPG" alt="Разработка дизайна татуировки" loading="lazy">
+                    <h3 data-lang-key="process_design_title">Разработка дизайна</h3>
+                    <p data-lang-key="process_design_desc">Создаем уникальный эскиз, который идеально подходит именно вам, учитывая все пожелания и особенности анатомии.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/proces3.JPG" alt="Подготовка кожи перед татуировкой" loading="lazy">
+                    <h3 data-lang-key="process_preparation_title">Подготовка</h3>
+                    <p data-lang-key="process_preparation_desc">Подготавливаем кожу и рабочее место, обеспечивая полную стерильность и ваш комфорт.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/proces4.JPG" alt="Процесс нанесения татуировки" loading="lazy">
+                    <h3 data-lang-key="process_tattooing_title">Нанесение</h3>
+                    <p data-lang-key="process_tattooing_desc">Аккуратно и профессионально наносим татуировку, уделяя внимание каждой детали для идеального результата.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/proces5.JPG" alt="Уход за новой татуировкой" loading="lazy">
+                    <h3 data-lang-key="process_aftercare_title">Уход</h3>
+                    <p data-lang-key="process_aftercare_desc">Предоставляем подробные рекомендации по уходу за новой татуировкой, чтобы она радовала вас долгие годы.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr data-aos="fade-up">
+
+        <section id="contact">
+            <h2 data-lang-key="contact_title" data-aos="fade-up">Контакты</h2>
+            <div class="contact-info">
+                <a href="https://www.instagram.com/tattookirill_yuvelir/" target="_blank" class="instagram-btn" data-aos="fade-right">
+                    <i class="fab fa-instagram"></i> <span data-lang-key="contact_instagram_label">Instagram</span>
+                </a>
+                
+                <a href="tg://msg?to=+380977702680" target="_blank" class="telegram-btn" data-aos="fade-left" data-aos-delay="100">
+                    <i class="fab fa-telegram-plane"></i> <span data-lang-key="contact_telegram_label">Telegram</span>
+                </a>
+            </div>
+
+        </section>
+        
+        <div class="share-bottom-container" data-aos="fade-up">
+            <button id="shareBottomBtn" class="share-btn share-bottom" aria-label="Поделиться сайтом">
+                <i class="fas fa-share-alt"></i> 
+            </button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p data-lang-key="footer_text" data-aos="fade-up">&copy; 2025. Все права защищены.</p>
+    </footer>
+
+    <div class="social-side-buttons">
+        <a href="https://www.instagram.com/tattookirill_yuvelir/" target="_blank" class="social-side-btn instagram-side-btn" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="tg://msg?to=+380977702680" target="_blank" class="social-side-btn telegram-side-btn" aria-label="Telegram">
+            <i class="fab fa-telegram-plane"></i>
+        </a>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="">
+        <a class="lightbox-prev" data-lang-key="lightbox_prev">&#10094;</a>
+        <a class="lightbox-next" data-lang-key="lightbox_next">&#10095;</a>
+    </div>
+
+    <button id="scrollToTopBtn" class="scroll-to-top-btn" aria-label="Вернуться наверх">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
